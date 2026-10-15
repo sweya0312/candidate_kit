@@ -1,0 +1,10 @@
+# Runtime dependencies for Employee Attendance & Analytics API
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30,<1.0
+pymongo>=4.8,<5.0
+python-dotenv>=1.0,<2.0
+pydantic>=2.8,<3.0
+
+# Test client and test runner (useful for the final integration test pass)
+httpx>=0.27,<1.0
+pytest>=8.0,<9.0
